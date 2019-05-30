@@ -1,4 +1,4 @@
 #!/bin/bash
 
 
-cat cuda-path.txt >> .bashrc
+cat cuda-path.txt >> ~/.bashrc
