@@ -15,7 +15,7 @@
 
 
 # For computers with Killer AX1650 wireless card
-## Enable WiFi
+## To enable WiFi
 If you have wired network, follow this instruction
 https://support.killernetworking.com/knowledge-base/killer-ax1650-in-debian-ubuntu-16-04/
 
