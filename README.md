@@ -58,6 +58,8 @@ https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git/
 
 For example
 
+```
 $ wget https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git/snapshot/linux-firmware-20200122.tar.gz
 $ tar -xf linux-firmware-20200122.tar.gz
 $ sudo cp -r linux-firmware-20200122/intel/* /lib/firmware/intel
+```
