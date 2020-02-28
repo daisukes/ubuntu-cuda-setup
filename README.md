@@ -51,3 +51,13 @@ $ sudo cp linux-firmware/iwlwifi-* /lib/firmware/
 $ sudo dpkg -i backport-iwlwifi-dkms_8042-0ubuntu2_all.deb
 $ sudo update-initramfs -u
 ```
+
+
+## To enable Bluetooth, copy latest intel bluetooth firmware 
+https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git/
+
+For example
+
+$ wget https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git/snapshot/linux-firmware-20200122.tar.gz
+$ tar -xf linux-firmware-20200122.tar.gz
+$ sudo cp -r linux-firmware-20200122/intel/* /lib/firmware/intel
