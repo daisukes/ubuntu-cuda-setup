@@ -14,8 +14,12 @@
 - samples : no
 
 
-## For computers with Killer AX1650 wireless card
-Follow the official instruction, but slightly modified
+# For computers with Killer AX1650 wireless card
+## Enable WiFi
+If you have wired network, follow this instruction
+https://support.killernetworking.com/knowledge-base/killer-ax1650-in-debian-ubuntu-16-04/
+
+If you do not have wired network, follow the official instruction, but slightly modified
 https://support.killernetworking.com/knowledge-base/killer-ax1650-in-debian-ubuntu-16-04-without-internet-access/
 
 ### Step 1 – Download Backport-Iwlwifi-Dkms, it’s Dependencies, and the Linux-Firmware.git Repository
@@ -53,7 +57,8 @@ $ sudo update-initramfs -u
 ```
 
 
-## To enable Bluetooth, copy latest intel bluetooth firmware 
+## To enable Bluetooth
+copy latest intel bluetooth firmware 
 https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git/
 
 For example
